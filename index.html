@@ -1,0 +1,147 @@
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carlos Batista | Desenvolvedor Front-End</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #f0f0f0;
+    }
+
+    header {
+      background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+      padding: 3rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+      animation: fadeInDown 1s ease-out;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #e0e0ff;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    h2 {
+      color: #8c52ff;
+      border-bottom: 2px solid #8c52ff;
+      padding-bottom: 0.5rem;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li::before {
+      content: "✦ ";
+      color: #8c52ff;
+    }
+
+    .botao {
+      display: inline-block;
+      margin: 1rem 1rem 0 0;
+      padding: 0.8rem 1.6rem;
+      background: linear-gradient(90deg, #8e2de2, #4a00e0);
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .botao:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #1b1b2f;
+      color: #ccc;
+      margin-top: 4rem;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Carlos Batista</h1>
+    <p>Desenvolvedor Front-End Júnior</p>
+  </header>
+
+  <section class="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou estudante de Análise e Desenvolvimento de Sistemas, focado em desenvolver interfaces modernas, responsivas e impactantes usando HTML e CSS. Meu objetivo é criar experiências digitais que impressionam e funcionam bem em qualquer dispositivo.</p>
+  </section>
+
+  <section class="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Criação de sites institucionais elegantes</li>
+      <li>Landing pages atrativas para conversão</li>
+      <li>Portfólios personalizados com animações</li>
+      <li>Sites responsivos com estilo futurista</li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <h2>Contato</h2>
+    <p>Me chame no WhatsApp ou veja meu Instagram para conhecer mais do meu trabalho:</p>
+    <a href="https://wa.me/5573982453465?text=Ol%C3%A1%2C%20Carlos!%20Vi%20seu%20trabalho%20de%20cria%C3%A7%C3%A3o%20de%20sites%20e%20gostaria%20de%20conhecer%20seus%20projetos%20e%20saber%20como%20voc%C3%AA%20pode%20ajudar%20meu%20neg%C3%B3cio." class="botao" target="_blank">Falar no WhatsApp</a>
+    <a href="https://instagram.com/carlossbatista_" class="botao" target="_blank">Ver Instagram</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Carlos Batista - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
